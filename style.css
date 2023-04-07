@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(53, 164, 168);
+    padding: 1em;
+
+}
+
+.rectangular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 0 auto;
+    border: 10px;
+    position: absolute;
+    z-index: 20;
+}
+
+.b4{
+    flex-basis: 1400px;
+    height: 300px;
+}
+.b5{
+    flex-basis: 1400px;
+    height: 5px;
+    background-color: rgb(214, 241, 115);
+}
+
+.circle{
+   z-index: 30;
+   position: absolute;
+   top: 50px;
+   left: 150px;
+   display: flex;
+   flex-direction: column;
+   gap: 130px;   
+}
+
+.items{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(241, 110, 110);
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.c3{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+.c4{
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    background-color: yellow;
+}
+.c5{
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    width: 150px;
+    height: 150px;
+}
+.c6{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.human{
+    background-color: rgb(53, 164, 168);
+    z-index: 85;
+    position: absolute;
+    bottom: 98px;
+    left: 53px;
+    display: flex;
+    flex-direction: row;
+    font-size: 130px;
+}
+
+.triangle1{
+    z-index: 80;
+    height: 0px;
+    width: 0px;
+    border-bottom: 400px solid green;
+    border-right: 170px solid transparent;
+    border-left: 170px solid transparent;
+    position: absolute;
+    bottom: 98px;
+    left: 910px
+}
+.triangle2{
+    z-index: 80;
+    height: 0px;
+    width: 0px;
+    border-bottom: 300px solid rgb(214, 241, 115);
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    position: absolute;
+    bottom: 98px;
+    right: 100px
